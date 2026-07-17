@@ -1,0 +1,53 @@
+baseURL = "https://shuminxi234.github.io/AI-Related-Blog/"
+locale = "zh-CN"
+title = "AI Related Blog"
+theme = "PaperMod"
+paginate = 10
+enableRobotsTXT = true
+
+[params]
+  description = "AI 技术博客 — AI Agent / LLM / 自动化 / 工程实践"
+  author = "shuminxi234"
+  DateFormat = "2006-01-02"
+  defaultTheme = "auto"
+  disableThemeToggle = false
+  ShowReadingTime = true
+  ShowShareButtons = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowWordCount = true
+  ShowRssButtonInSectionTermList = true
+  ShowAllPagesInArchive = true
+  ShowPageNaviButtons = true
+  ShowToc = true
+  TocOpen = false
+
+  [params.homeInfoParams]
+    Title = "AI Related Blog"
+    Content = "聚焦 AI Agent、LLM 应用、自动化工程实践与技术思考"
+
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/shuminxi234"
+
+[menu]
+  [[menu.main]]
+    identifier = "archives"
+    name = "归档"
+    url = "/archives/"
+    weight = 10
+  [[menu.main]]
+    identifier = "search"
+    name = "搜索"
+    url = "/search/"
+    weight = 20
+  [[menu.main]]
+    identifier = "tags"
+    name = "标签"
+    url = "/tags/"
+    weight = 30
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+  section = ["HTML", "RSS"]
