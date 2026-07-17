@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://shuminxi234.github.io/AI-Related-Blog/sitemap.xml
